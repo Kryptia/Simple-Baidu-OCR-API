@@ -14,6 +14,8 @@ requirements.txt
 
 ## Usage
 
+Rename `account.conf.sample` to `account.conf`, and change `'ak'` and `'sk'` to your own.
+
 Simply Type:
 
     python main.py <path-to-picture-file>
