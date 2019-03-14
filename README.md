@@ -14,10 +14,7 @@ requirements.txt
 
 ## Usage
 
-Rename `account.conf.sample` to `account.conf`, and change `'ak'` and `'sk'` to your own.
-
-Simply Type:
-
-    python main.py <path-to-picture-file>
-
-Then the ocr text will be displayed on both console and `ocr_result.txt` file.
+1. Install all the requirements. (`pip install -r requirements.txt`)
+2. Rename `account.conf.sample` to `account.conf`, and change `'ak'` and `'sk'` to your own.
+3. Simply Type `python main.py <path-to-picture-file>`.
+4. The ocr text will be displayed on both console and `ocr_result.txt` file.

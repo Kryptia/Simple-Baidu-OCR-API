@@ -1,3 +1,4 @@
 venv
 *.jpg
-*.mp3
+account.conf
+ocr_result.txt
