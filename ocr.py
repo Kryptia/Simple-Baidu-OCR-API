@@ -1,8 +1,12 @@
 import sys
 import baiduapi
+import json
 
-ak = "sKx14uTbbwylOgSOwBSD6Iux"
-sk = "QyjkMi0Cz50cl865ROQpcInGhtzYtGve"
+with open("account.conf", "r") as f:
+    dic = json.loads(f.read())
+    ak = dic['ak']
+    sk = dic['sk']
+
 accurate_url = 'https://aip.baidubce.com/rest/2.0/ocr/v1/accurate_basic'
 general_url = 'https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic'
 
